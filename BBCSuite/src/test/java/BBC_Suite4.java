@@ -39,14 +39,7 @@ public class BBC_Suite4 {
         List<String> hrefs = new ArrayList<String>();
         List<WebElement> anchors = driver.findElements(By.tagName("a"));
         List<String> links = new ArrayList<String>();
-        //For getting links
-//        for(int i=0;i<anchors.size();i++) {
-//           Thread.sleep(4000);
-//
-//
-//           // System.out.println(anchors.get(i));
-//            System.out.println(anchors.get(i).getText());
-//        }
+
 
         //For getting the link texts
         String url="";
@@ -96,11 +89,7 @@ public class BBC_Suite4 {
         workbook.write(fileOutputStream);
         fileOutputStream.close();
 
-//        for(int i=0;i<anchors.size();i++){
-//            Thread.sleep(4000);
-//            anchors.get(i).click();
-//            driver.navigate().back();
-//        }
+
     }
 
 
